@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { useState } from 'react';
+import {data} from "./data/data.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
